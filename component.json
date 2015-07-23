@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "description": "面包屑导航,可配合ui-router使用,在父view中引用指令,子view中调用service增加item",
+    "name": "ng-breadcrumb",
+    "main": "ng-breadcrumb.js",
+    "dependencies": [
+        "angular",
+        "bootstrap"
+    ],
+    "shim": {
+        "ui-bootstrap.js": {
+            "deps": ["angular"],
+            "exports": "'breadcrumb'"
+        }
+    }
+}
