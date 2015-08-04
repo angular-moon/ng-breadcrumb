@@ -19,5 +19,5 @@
     *zoom: ~"expression(this.runtimeStyle['zoom'] = '1',this.appendChild(document.createElement('s').appendChild(document.createTextNode('\00a0/\00a0'))))";
 }
 .breadcrumb li.active{
-    *zoom: ~"expression(this.runtimeStyle['zoom'] = '1',this.removeChild(this.lastChild)";
+    *zoom: ~"expression(this.runtimeStyle['zoom'] = '1',this.removeChild(this.lastChild))";
 }
