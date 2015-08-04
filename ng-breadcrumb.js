@@ -1,5 +1,5 @@
 //@require bootstrap/css/bootstrap.css
-//@require ng-breadcrumb.css
+
 angular.module('breadcrumb', [])
     .service('breadcrumb', function(){
 
