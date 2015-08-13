@@ -1,4 +1,3 @@
-//@require bootstrap/css/bootstrap.css
 
 angular.module('breadcrumb', [])
     .service('breadcrumb', function(){
@@ -40,7 +39,9 @@ angular.module('breadcrumb', [])
                     return 0;
                 }
 
-
+                /**
+                 * @description 响应插入节点事件,插入新的节点,并删除深度大于等于该节点的所有节点
+                 */
                 scope.$on("breadcrumb", function(event, breadcrumb){
                     if(scope.breadcrumbs){
                         var deep = breadcrumb.deep;
